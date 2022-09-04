@@ -5,8 +5,10 @@ description = "New version of mjk-art website. Running as Flask app."
 authors = ["Matthias Kasel <kubbixx@web.de>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.10"
 Flask = "^2.2.2"
+SQLAlchemy = "^1.4.40"
+Flask-SQLAlchemy = "^2.5.1"
 
 [tool.poetry.dev-dependencies]
 black = "^22.6.0"
