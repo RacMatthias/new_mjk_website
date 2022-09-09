@@ -1,5 +1,6 @@
 from . import db
 
+
 class Artwork(db.Model):
     id = db.Column("artwork_id", db.Integer, primary_key=True)
     title = db.Column(db.String(100))
